@@ -1,4 +1,11 @@
-# Mac files
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+
+# System Files
+Thumbs.db
 .DS_Store
 __MACOSX
 
