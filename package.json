@@ -1,0 +1,24 @@
+{
+  "name": "gulp-new",
+  "version": "1.0.0",
+  "description": "New Gulp Assembly",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pasha-z25/gulp-new.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pasha-z25/gulp-new/issues"
+  },
+  "homepage": "https://github.com/pasha-z25/gulp-new#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
