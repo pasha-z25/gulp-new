@@ -27,4 +27,6 @@ const watcher = () => {
 
 const dev = gulp.series(clear, mainTasks, gulp.parallel(watcher, server));
 
+export const build = gulp.series(clear, mainTasks); /* deploy to ftp, etc. */
+
 export default dev;

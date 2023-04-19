@@ -10,7 +10,7 @@ const sass = gulpSass(dartSass);
 
 export const styles = () => {
   return app.gulp
-    .src(app.path.src.scss, { sourceMap: true })
+    .src(app.path.src.scss)
     .pipe(sourcemaps.init())
     .pipe(
       sass({
